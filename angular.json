@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "film-info"
+  "defaultProject": "film-info",
+  "cli": {
+    "analytics": "fb135929-c83d-4355-80b6-6e0f475ae68d"
+  }
 }
