@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SingleFilmViewComponent } from './single-film-view.component';
+import { SingleMovieComponent } from './single-movie.component';
 
-describe('SingleFilmViewComponent', () => {
-  let component: SingleFilmViewComponent;
-  let fixture: ComponentFixture<SingleFilmViewComponent>;
+describe('SingleMovieComponent', () => {
+  let component: SingleMovieComponent;
+  let fixture: ComponentFixture<SingleMovieComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SingleFilmViewComponent ]
+      declarations: [ SingleMovieComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SingleFilmViewComponent);
+    fixture = TestBed.createComponent(SingleMovieComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
